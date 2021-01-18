@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarthak Audi</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+<style>
+    body
+    {
+        font-family: 'Nerko One', cursive;
+        color: White;
+        margin: 0px;
+        padding: 0px;
+        background: url('2020-Audi-R8-V10-RWD-001-1080.jpg');
+
+    }
+    .left
+    {
+        position: absolute;
+        left: 40px;
+        top: 20px;
+        display: inline-block;
+        width: 10%;
+    }
+    .left img
+    {
+        width: 60px;
+        filter: invert(5%);
+    }
+    .mid
+    {
+        display: block;
+        width: 30%;
+        margin: 20px auto;
+    }
+    .right
+    {
+        position: absolute;
+        right: 40px;
+        top: 20px;
+        display: inline-block;
+        width: 20%;
+    }
+    .navbar
+    {
+        display: inline-block;
+    }
+    .navbar button
+    {
+        font-family: 'Nerko One', cursive;
+        color:rgb(24, 24, 20);
+        display: inline-block;
+        font-size: 20px;
+        border: 2px solid grey;
+        border-radius: 10px;
+
+    }
+    .navbar button a
+    {
+        color: rgb(26, 26, 24);
+        font-family: 'Nerko One', cursive;
+        text-decoration: none;
+        padding: 5px 0px;
+        border: 2px ;
+        border-radius: 10px;
+    }
+    .navbar button a:hover, .navbar li a.active
+    {
+        font-family: 'Nerko One', cursive;
+        color: rgb(22, 32, 122);
+        text-decoration: underline;
+        padding: 1px 20px;
+        border: 2px ;
+        border-radius: 10px;
+    }
+    .Title
+    {
+        color: black;
+    }
+    .left div
+    {
+        text-align: left;
+    }
+    .btn
+    {
+        font-family: 'Nerko One', cursive; 
+        margin: 0px 9px;
+        color: grey;
+        background-color: black;
+        padding: 5px 10px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .btn:hover
+    {
+        background-color: grey;
+        color: black;
+    }
+    .container
+    {
+        border: 2px solid black;
+        border-radius: 20px;
+        margin: 200px 20px;
+        padding: 20px 32px;
+        width: 20%;
+        color: black;
+        background-color: white;
+        size: 30px;
+
+    }
+    .container activity
+    {
+        font-size: 30px;
+    }
+    .formgroup
+    {
+        text-align: center;
+        display: block;
+        width: 185px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 3px auto;
+    }
+    .container button
+    {
+        display: block;
+        margin: auto;
+        width: 50%;
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="images.jpeg" alt="">
+            <div class="Title">Gadi ki Dukan</div>
+        </div>
+        <div class="mid"> 
+            <ul class="navbar">
+                <button><a href="https://www.audi.ie/ie/web/en.html">Home</a></button>
+                <button><a href="https://www.linkedin.com/in/sarthak-tripathy-756195178/">About Us</a></button>
+                <button><a href="https://www.audi.ie/ie/web/en/used-car-search/results.html">car prices</a></button>
+                <button><a href="https://www.linkedin.com/feed/">Contact Us</a></button>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h3 class="activity">Try A Test Ride</h3>
+        <form action="testdrive.cpp">
+            <div class="formgroup"><input type="text" placeholder="Enter Your name"></div>
+            <div class="formgroup"><input type="text" placeholder="Enter Your Phone No"></div>
+            <div class="formgroup"><input type="text" placeholder="Enter Your Address"></div>
+            <div class="formgroup"><input type="text" placeholder="Enter Your Budget"></div>
+            <button class="btn" class="possubmit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
